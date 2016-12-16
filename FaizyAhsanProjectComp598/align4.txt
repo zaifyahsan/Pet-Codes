@@ -1,0 +1,55 @@
+# STOCKHOLM 1.0
+
+#=GF AC   RF00163
+#=GF ID   Hammerhead_1
+#=GF DE   Hammerhead ribozyme (type I)
+#=GF AU   Bateman A
+#=GF SE   Bateman A
+#=GF SS   Published; PMID:9632772
+#=GF GA   34.00
+#=GF TC   34.00
+#=GF NC   33.90
+#=GF TP   Gene; ribozyme;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 22.88 -Z 549862.597050 CM SEQDB
+#=GF DR   SO; 0000380; hammerhead_ribozyme;
+#=GF RN   [1]
+#=GF RM   11024185
+#=GF RT   Hammerhead-mediated processing of satellite pDo500 family transcripts from
+#=GF RT   Dolichopoda cave crickets.
+#=GF RA   Rojas AA, Vazquez-Tello A, Ferbeyre G, Venanzetti F, Bachmann L, Paquin B,
+#=GF RA   Sbordoni V, Cedergren R
+#=GF RL   Nucleic Acids Res 2000;28:4037-4043.
+#=GF RN   [2]
+#=GF RM   10899150
+#=GF RT   Distribution of hammerhead and hammerhead-like RNA motifs through the
+#=GF RT   GenBank.
+#=GF RA   Ferbeyre G, Bourdeau V, Pageau M, Miramontes P, Cedergren R
+#=GF RL   Genome Res 2000;10:1011-1019.
+#=GF CC   The hammerhead ribozyme is one of the smallest catalytic RNAs. These RNAs
+#=GF CC   have an endonuclease function, and most often are autocatalytic.
+#=GF CC   Structurally it is composed of three base paired helices, separated by
+#=GF CC   short linkers of conserved sequence. These helices are called I, II and
+#=GF CC   III. We have classified hammerhead ribozymes into three types based on
+#=GF CC   which helix the 5' and 3' ends of the sequence join. This family are the
+#=GF CC   type I hammerheads. The conserved uridine-turn links helix I to helix II
+#=GF CC   and usually has the sequence CUGA. Helix II and III are linked by a
+#=GF CC   sequence CGAAA. The cleavage reaction occurs between helix III and I, and
+#=GF CC   is usually a C. Hammerhead ribozymes are found in plant viroids and other
+#=GF CC   small replicating satellite RNA species. Hammerhead ribozymes have been
+#=GF CC   found in animals as well as plants.
+#=GF WK   Hammerhead_ribozyme
+#=GF **   seedtax: Viroids; Eukaryota
+#=GF SQ   29
+
+
+
+X15620.1/19-62        E       GGCUAGCAGUGGAAUCC-A------------------------------------------------------------------------AAUAGGACGAA---ACGC-GCGUC---CUGGAU
+D87493.1/3564-3609     B      GCACUUCUGAAGAGUCCCAU-----------------------------------------------------------------------GCUAGGACGAA---ACAG-CCUUC---CAGUAC
+D87492.1/2147-2192     C      CAAUUGCUGAGGAGUCCCAU-----------------------------------------------------------------------AAUAGGACGAA---ACGG-CCGUC---CAGUGC
+D87492.1/743-788     A        GCACUGCUGAGGAGUCCCAC-----------------------------------------------------------------------AAUAGGACGAA---ACGA-CCGUC---CAGUAC
+M98271.1/8-53        D        CGACUGCUGAGGAGUCCCAC-----------------------------------------------------------------------AAUAGGGCGAU---ACGG-ACGUC---CAGUGC
+#=GC SS_cons                 ((((((,,,,,,,<<<<___.......................................................................____>>>>,,,...<<<<.>>>>,...))))))
+#=GC RF                      cUuuccCUGAaGAGuCcaAG.......................................................................AAUAgGaCGAA...ACgC.GcGUC...ggaaAg
+//

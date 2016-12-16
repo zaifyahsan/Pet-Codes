@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+
+#=GF AC   RF01068
+#=GF ID   mini-ykkC
+#=GF DE   mini-ykkC RNA motif
+#=GF AU   Weinberg Z, Gardner PP
+#=GF SE   Published; PMID:17621584; Weinberg Z
+#=GF SS   Published; PMID:17621584; Weinberg Z
+#=GF GA   32.00
+#=GF TC   32.00
+#=GF NC   31.90
+#=GF TP   Cis-reg;
+#=GF BM   cmbuild -F CM SEED
+#=GF CB   cmcalibrate --mpi CM
+#=GF SM   cmsearch --cpu 4 --verbose --nohmmonly -T 21.00 -Z 549862.597050 CM SEQDB
+#=GF DR   SO; 0005836; regulatory_region;
+#=GF RN   [1]
+#=GF RM   17621584
+#=GF RT   Identification of 22 candidate structured RNAs in bacteria using the
+#=GF RT   CMfinder comparative genomics pipeline.
+#=GF RA   Weinberg Z, Barrick JE, Yao Z, Roth A, Kim JN, Gore J, Wang JX, Lee ER,
+#=GF RA   Block KF, Sudarsan N, Neph S, Tompa M, Ruzzo WL, Breaker RR
+#=GF RL   Nucleic Acids Res. 2007;35:4809-4819.
+#=GF WK   Mini-ykkC_RNA_motif
+#=GF SQ   72
+
+
+AM286690.1/2165346-2165394 A CCCUGGGGACGACCCC-GGCGGCCAAGGCUAUAAAG-----ACGGGACGGCCCGU
+CP000453.1/2185364-2185316 C GGCCGGGGACGACCCU-GGCCGCCAGAACGAAAACG-----GCGGGAGGACCUGG
+AE007869.2/1627110-1627159 B GCGCGAGGACGACCUC-GGCCAAAUCGGCGACAGCAU----GCGGGACGGCCCGG
+#=GC SS_cons               <<<<<<<<____>>>>.>>>>--------------......<<<<<____>>>>>
+#=GC RF                    ccgcggGGACGACCcc.gcggCucaccgauuuacc......cgGGGACGACCCcg
+//
